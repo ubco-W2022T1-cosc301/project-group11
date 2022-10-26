@@ -3,49 +3,54 @@
 ## Milestones
 
 ### 1. Milestone 1 - Form Team and Find Dataset (Sep 29)
-   * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
+
+      In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
 
 > Group members: Adnan Ahmed, Luca deVerteuil, Ken Woon
-> 
+>
 > Group number: 11
-> 
+>
 > 1. Describe your dataset
-> 
-> - This data collection lists Vancouver's historical crime data, showing the type of crime, the year, month, date, hour, and minute that they occurred, the location and neighbourhood of the crime scene, and the x and y coordinate values projected in UTM zone 10.
-> 
+>
+>    This data collection lists Vancouver's historical crime data, showing the type of crime, the year, month, date, hour, and minute that they occurred, the location and neighbourhood of the crime scene, and the x and y coordinate values projected in UTM zone 10.
+>
 > 2. What is the source of your dataset?
-> 
-> - The dataset is created by Sumaia P. and is posted on Kaggle. The data provided is based on the information contained in the Vancouver Police Department Records Management System. The crime classification and file status may change at any time based on the dynamic nature of police investigations.
-> 
+>
+>    The dataset is created by Sumaia P. and is posted on Kaggle. The data provided is based on the information contained in the Vancouver Police Department Records Management System. The crime classification and file status may change at any time based on the dynamic nature of police investigations.
+>
 > 3. License: what is the license of your dataset? CC0, MIT, etc...
-> 
-> - CC0: Public Domain
-> 
+>
+>    CC0: Public Domain
+>
 > 4. Rows
-> 
-> - 793916 rows
-> 
+>
+>    793916 rows
+>
 > 5. Columns
-> 
-> - 10 columns
-> 
+>
+>    10 columns
+>
 > 6. Interests
-> 
-> - We are very interested to find out the historical crime trends in Vancouver, as it is a common place to visit, and some of us are planning to move there to work. We will be able to be more prepared to avoid encountering these crimes. The crime data is intended to enhance community awareness of policing activity in Vancouver and will also likely be a valuable reference for the police department of Vancouver to predict crimes that may occur in the future.
+>
+>    We are very interested to find out the historical crime trends in Vancouver, as it is a common place to visit, and some of us are planning to move there to work. We will be able to be more prepared to avoid encountering these crimes. The crime data is intended to enhance community awareness of policing activity in Vancouver and will also likely be a valuable reference for the police department of Vancouver to predict crimes that may occur in the future.
 
 ### 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
-   * In this milestone we will be expected to setup the repository, clone it to each of our local machine and load the approved dataset.
-   
+
+      In this milestone we will be expected to setup the repository, clone it to each of our local machine and load the approved dataset.
+
 > *This entire repository is our milestone 2 product.*
 
 ### 3. Milestone 3 - Data Analysis (Nov 3)
-   * In this milestone we will be expected to process and clean our dataset, do exploratory data analysis (EDA), create some data visualizations, and work with method chaining in Pandas.
+
+      In this milestone we will be expected to process and clean our dataset, do exploratory data analysis (EDA), create some data visualizations, and work with method chaining in Pandas.
 
 ### 4. Milestone 4 - Present your Dashboard! (Nov 17)
-   * In this milestone we will be finalizing our submission and presenting all our hard-work to our fellow students as a Dashboard!
+
+      In this milestone we will be finalizing our submission and presenting all our hard-work to our fellow students as a Dashboard!
 
 ### 5. Milestone 5 - Address Feedback and Refine project (Dec 1)
-   * In this milestone we will continue working on our class project, process the data for our dashboard, and get the repo ready for final submission.
+
+      In this milestone we will continue working on our class project, process the data for our dashboard, and get the repo ready for final submission.
 
 ## Interest in the Topic
 
@@ -71,11 +76,6 @@ Some questions that we would like to explore are:
 
 ## Images
 
-
-
 ## References
 
 The data set that we will be using is Vancouvers BC Historical Crime Data. More information at this [link](https://www.kaggle.com/datasets/sumaiaparveenshupti/vancouver-bc-historical-crime-data).
-
-
-
