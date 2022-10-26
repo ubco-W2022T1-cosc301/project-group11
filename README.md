@@ -6,6 +6,7 @@
    * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
 
 > Group members: Adnan Ahmed, Luca deVerteuil, Ken Woon
+> 
 > Group number: 11
 > 
 > 1. Describe your dataset
