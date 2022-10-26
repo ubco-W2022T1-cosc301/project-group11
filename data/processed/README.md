@@ -1,3 +1,3 @@
-# Processed Data Folder
+# Processed Data
 
-- `processed` - You can place cleaned up, and processed data files in this directory.
+Any cleaned up and processed data of the raw file is in this directory.
