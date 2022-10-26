@@ -46,8 +46,7 @@ Some questions that we would like to explore are:
 ## References
 
 **Please remember to update this section**
-
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+The data set that we will be using is Vancouvers BC Historical Crime Data. More information at this link [LINK](https://www.kaggle.com/datasets/sumaiaparveenshupti/vancouver-bc-historical-crime-data)
 
 
 
