@@ -3,18 +3,21 @@
 ## Milestones
 
 1. Milestone 1 - Form Team and Find Dataset (Sep 29)
-  * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
+   * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
 
-> Test
+>> Test
 
 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
-- In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
+   * In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
+
 3. Milestone 3 - Data Analysis (Nov 3)
-- In this milestone we will be expected to process and clean our dataset, do exploratory data analysis (EDA), create some data visualizations, and work with method chaining in Pandas. 
+   * In this milestone we will be expected to process and clean our dataset, do exploratory data analysis (EDA), create some data visualizations, and work with method chaining in Pandas.
+
 4. Milestone 4 - Present your Dashboard! (Nov 17)
-- In this milestone we will be finalizing our submission and presenting all our hard-work to our fellow students as a Dashboard!
+   * In this milestone we will be finalizing our submission and presenting all our hard-work to our fellow students as a Dashboard!
+
 5. Milestone 5 - Address Feedback and Refine project (Dec 1)
-- In this milestone We will continue working on our class project, process the data for our dashboard, and get the repo ready final submission in Milestone 4.
+   * In this milestone We will continue working on our class project, process the data for our dashboard, and get the repo ready final submission in Milestone 4.
 
 ## Interest in the Topic
 
