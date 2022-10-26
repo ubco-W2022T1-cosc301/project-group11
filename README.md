@@ -34,7 +34,7 @@
 > - We are very interested to find out the historical crime trends in Vancouver, as it is a common place to visit, and some of us are planning to move there to work. We will be able to be more prepared to avoid encountering these crimes. The crime data is intended to enhance community awareness of policing activity in Vancouver and will also likely be a valuable reference for the police department of Vancouver to predict crimes that may occur in the future.
 
 ### 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
-   * In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
+   * In this milestone we will be expected to setup the repository, clone it to each of our local machine and load the approved dataset.
    
 > *This entire repository is our milestone 2 product.*
 
@@ -45,7 +45,7 @@
    * In this milestone we will be finalizing our submission and presenting all our hard-work to our fellow students as a Dashboard!
 
 ### 5. Milestone 5 - Address Feedback and Refine project (Dec 1)
-   * In this milestone We will continue working on our class project, process the data for our dashboard, and get the repo ready final submission in Milestone 4.
+   * In this milestone we will continue working on our class project, process the data for our dashboard, and get the repo ready for final submission.
 
 ## Interest in the Topic
 
