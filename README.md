@@ -35,6 +35,8 @@
 
 ### 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
    * In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
+   
+*This entire repository is our milestone 2 product.*
 
 ### 3. Milestone 3 - Data Analysis (Nov 3)
    * In this milestone we will be expected to process and clean our dataset, do exploratory data analysis (EDA), create some data visualizations, and work with method chaining in Pandas.
