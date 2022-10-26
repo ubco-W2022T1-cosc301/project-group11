@@ -3,7 +3,7 @@
 ## Milestones
 
 ### 1. Milestone 1 - Form Team and Find Dataset (Sep 29)
-   * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
+: In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
 
 > Group members: Adnan Ahmed, Luca deVerteuil, Ken Woon
 > 
