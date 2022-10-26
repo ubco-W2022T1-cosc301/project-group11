@@ -5,7 +5,7 @@
 1. Milestone 1 - Form Team and Find Dataset (Sep 29)
    * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
 
->> Test
+> > Test
 
 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
    * In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
