@@ -2,7 +2,7 @@
 
 ## Milestones
 
-1. Milestone 1 - Form Team and Find Dataset (Sep 29)
+### 1. Milestone 1 - Form Team and Find Dataset (Sep 29)
    * In this milestone we will be expected to choose a dataset appropriate for the COSC 301 project. The most important task for this milestone is to select an appropriate dataset.
 
 > Group members: Adnan Ahmed, Luca deVerteuil, Ken Woon
@@ -33,16 +33,16 @@
 > 
 > - We are very interested to find out the historical crime trends in Vancouver, as it is a common place to visit, and some of us are planning to move there to work. We will be able to be more prepared to avoid encountering these crimes. The crime data is intended to enhance community awareness of policing activity in Vancouver and will also likely be a valuable reference for the police department of Vancouver to predict crimes that may occur in the future.
 
-2. Milestone 2 - Create repository and Load Dataset (Oct 13)
+### 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
    * In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
 
-3. Milestone 3 - Data Analysis (Nov 3)
+### 3. Milestone 3 - Data Analysis (Nov 3)
    * In this milestone we will be expected to process and clean our dataset, do exploratory data analysis (EDA), create some data visualizations, and work with method chaining in Pandas.
 
-4. Milestone 4 - Present your Dashboard! (Nov 17)
+### 4. Milestone 4 - Present your Dashboard! (Nov 17)
    * In this milestone we will be finalizing our submission and presenting all our hard-work to our fellow students as a Dashboard!
 
-5. Milestone 5 - Address Feedback and Refine project (Dec 1)
+### 5. Milestone 5 - Address Feedback and Refine project (Dec 1)
    * In this milestone We will continue working on our class project, process the data for our dashboard, and get the repo ready final submission in Milestone 4.
 
 ## Interest in the Topic
@@ -64,8 +64,6 @@ Some questions that we would like to explore are:
 &nbsp;
 
 ## Team Members
-
-**Please remember to update this section**
 
 - **Luca deVerteuil:** I am a computer sceince major and I love soccer. Brazil is going to win the next world cup !
 - **Ken Woon:** I am a senior mechatronics and computer science student with many hobbies such as playing sports and learning the guitar.
