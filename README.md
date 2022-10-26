@@ -9,22 +9,28 @@
 > Group number: 11
 > 
 > 1. Describe your dataset
-> This data collection lists Vancouver's historical crime data, showing the type of crime, the year, month, date, hour, and minute that they occurred, the location and neighbourhood of the crime scene, and the x and y coordinate values projected in UTM zone 10.
+> 
+> - This data collection lists Vancouver's historical crime data, showing the type of crime, the year, month, date, hour, and minute that they occurred, the location and neighbourhood of the crime scene, and the x and y coordinate values projected in UTM zone 10.
 > 
 > 2. What is the source of your dataset?
-> The dataset is created by Sumaia P. and is posted on Kaggle. The data provided is based on the information contained in the Vancouver Police Department Records Management System. The crime classification and file status may change at any time based on the dynamic nature of police investigations.
+> 
+> - The dataset is created by Sumaia P. and is posted on Kaggle. The data provided is based on the information contained in the Vancouver Police Department Records Management System. The crime classification and file status may change at any time based on the dynamic nature of police investigations.
 > 
 > 3. License: what is the license of your dataset? CC0, MIT, etc...
-> CC0: Public Domain
+> 
+> - CC0: Public Domain
 > 
 > 4. Rows
-> 793916 rows
+> 
+> - 793916 rows
 > 
 > 5. Columns
-> 10 columns
+> 
+> - 10 columns
 > 
 > 6. Interests
-> We are very interested to find out the historical crime trends in Vancouver, as it is a common place to visit, and some of us are planning to move there to work. We will be able to be more prepared to avoid encountering these crimes. The crime data is intended to enhance community awareness of policing activity in Vancouver and will also likely be a valuable reference for the police department of Vancouver to predict crimes that may occur in the future.
+> 
+> - We are very interested to find out the historical crime trends in Vancouver, as it is a common place to visit, and some of us are planning to move there to work. We will be able to be more prepared to avoid encountering these crimes. The crime data is intended to enhance community awareness of policing activity in Vancouver and will also likely be a valuable reference for the police department of Vancouver to predict crimes that may occur in the future.
 
 2. Milestone 2 - Create repository and Load Dataset (Oct 13)
    * In this milestone we will be expected to setup the repository, clone it to your local machine and load our approved dataset.
