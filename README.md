@@ -61,8 +61,6 @@ Some questions that we would like to explore are:
 - Which areas are the most targeted? (eg. residential areas, business districts, parking lots, etc.)
 - The frequency of crime rates vs the area of occurrence in Vancouver can be plotted. What does it look like on the city map?
 
-&nbsp;
-
 ## Team Members
 
 - **Luca deVerteuil:** I am a computer sceince major and I love soccer. Brazil is going to win the next world cup !
