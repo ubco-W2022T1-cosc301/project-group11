@@ -63,8 +63,7 @@ We are very interested to find out the historical crime trends in Vancouver, as 
 Some questions that we would like to explore are:
 
 - What is the most common type of crime overall and in each area? (Luca)
-- At what times do the crimes occur the most? (Ken)
-- Which years had the most criminal cases, and why is it so? (Ken)
+- At what times and years do the crimes occur the most? (Ken)
 - Which areas are the most targeted? (eg. residential areas, business districts, parking lots, etc.) (Adnan)
 
 ## Team Members
