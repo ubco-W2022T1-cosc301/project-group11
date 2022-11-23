@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='HolidayCrime' inline='true' name='federated.17hsz7p1mp90m3181qxtk06yij0s' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HolidayCrime' name='textscan.0u6sil01rjl1dj1eul2wo0miexfa'>
+            <connection class='textscan' directory='/Users/lucadeverteuil/Documents/School/ComputerScience/301/GroupProject/PropAssign/project-group11/data/processed' filename='HolidayCrime.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='randcrimeDates' name='textscan.1okokf60qz9axu18t8o0d1auw6eu'>
+            <connection class='textscan' directory='/Users/lucadeverteuil/Documents/School/ComputerScience/301/GroupProject/PropAssign/project-group11/data/processed' filename='randcrimeDates.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0u6sil01rjl1dj1eul2wo0miexfa' name='HolidayCrime.csv' table='[HolidayCrime#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Holiday' ordinal='1' />
+            <column datatype='integer' name='Theft from Vehicle' ordinal='2' />
+            <column datatype='integer' name='Theft of Bicycle' ordinal='3' />
+            <column datatype='integer' name='Theft of Vehicle' ordinal='4' />
+            <column datatype='real' name='Vehicle Collision or Pedestrian Struck (with Fatality)' ordinal='5' />
+            <column datatype='integer' name='Vehicle Collision or Pedestrian Struck (with Injury)' ordinal='6' />
+            <column datatype='integer' name='Break and Enter Commercial' ordinal='7' />
+            <column datatype='integer' name='Break and Enter Residential/Other' ordinal='8' />
+            <column datatype='real' name='Homicide' ordinal='9' />
+            <column datatype='integer' name='Mischief' ordinal='10' />
+            <column datatype='integer' name='Offence Against a Person' ordinal='11' />
+            <column datatype='integer' name='Other Theft' ordinal='12' />
+            <column datatype='integer' name='Total' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0u6sil01rjl1dj1eul2wo0miexfa' name='HolidayCrime.csv' table='[HolidayCrime#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Holiday' ordinal='1' />
+            <column datatype='integer' name='Theft from Vehicle' ordinal='2' />
+            <column datatype='integer' name='Theft of Bicycle' ordinal='3' />
+            <column datatype='integer' name='Theft of Vehicle' ordinal='4' />
+            <column datatype='real' name='Vehicle Collision or Pedestrian Struck (with Fatality)' ordinal='5' />
+            <column datatype='integer' name='Vehicle Collision or Pedestrian Struck (with Injury)' ordinal='6' />
+            <column datatype='integer' name='Break and Enter Commercial' ordinal='7' />
+            <column datatype='integer' name='Break and Enter Residential/Other' ordinal='8' />
+            <column datatype='real' name='Homicide' ordinal='9' />
+            <column datatype='integer' name='Mischief' ordinal='10' />
+            <column datatype='integer' name='Offence Against a Person' ordinal='11' />
+            <column datatype='integer' name='Other Theft' ordinal='12' />
+            <column datatype='integer' name='Total' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Holiday</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Holiday]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Holiday</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theft from Vehicle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Theft from Vehicle]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Theft from Vehicle</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theft of Bicycle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Theft of Bicycle]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Theft of Bicycle</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Theft of Vehicle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Theft of Vehicle]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Theft of Vehicle</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Collision or Pedestrian Struck (with Fatality)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vehicle Collision or Pedestrian Struck (with Fatality)]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Vehicle Collision or Pedestrian Struck (with Fatality)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Collision or Pedestrian Struck (with Injury)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vehicle Collision or Pedestrian Struck (with Injury)]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Vehicle Collision or Pedestrian Struck (with Injury)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Break and Enter Commercial</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Break and Enter Commercial]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Break and Enter Commercial</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Break and Enter Residential/Other</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Break and Enter Residential/Other]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Break and Enter Residential/Other</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Homicide</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Homicide]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Homicide</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mischief</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mischief]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Mischief</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offence Against a Person</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offence Against a Person]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Offence Against a Person</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Theft</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Other Theft]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Other Theft</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[HolidayCrime.csv]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Break and Enter Residential/Other]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Homicide]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Mischief]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Offence Against a Person]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Theft of Vehicle]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Total (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='2' formula='[Total]' peg='0' size='293' />
+      </column>
+      <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Vehicle Collision or Pedestrian Struck (with Fatality)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Vehicle Collision or Pedestrian Struck (with Injury)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='HolidayCrime.csv' datatype='table' name='[__tableau_internal_object_id__].[HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B]' role='measure' type='quantitative' />
+      <column-instance column='[Break and Enter Residential/Other]' derivation='Sum' name='[sum:Break and Enter Residential/Other:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Homicide]' derivation='Sum' name='[sum:Homicide:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mischief]' derivation='Sum' name='[sum:Mischief:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Offence Against a Person]' derivation='Sum' name='[sum:Offence Against a Person:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Theft of Vehicle]' derivation='Sum' name='[sum:Theft of Vehicle:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Vehicle Collision or Pedestrian Struck (with Fatality)]' derivation='Sum' name='[sum:Vehicle Collision or Pedestrian Struck (with Fatality):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Vehicle Collision or Pedestrian Struck (with Injury)]' derivation='Sum' name='[sum:Vehicle Collision or Pedestrian Struck (with Injury):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Mischief:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Vehicle Collision or Pedestrian Struck (with Injury):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Vehicle Collision or Pedestrian Struck (with Fatality):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Break and Enter Residential/Other:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Theft of Vehicle:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Homicide:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Offence Against a Person:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='HolidayCrime.csv' id='HolidayCrime.csv_821F24A4D8F44B9998B320894A26762B'>
+            <properties context=''>
+              <relation connection='textscan.0u6sil01rjl1dj1eul2wo0miexfa' name='HolidayCrime.csv' table='[HolidayCrime#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Holiday' ordinal='1' />
+                  <column datatype='integer' name='Theft from Vehicle' ordinal='2' />
+                  <column datatype='integer' name='Theft of Bicycle' ordinal='3' />
+                  <column datatype='integer' name='Theft of Vehicle' ordinal='4' />
+                  <column datatype='real' name='Vehicle Collision or Pedestrian Struck (with Fatality)' ordinal='5' />
+                  <column datatype='integer' name='Vehicle Collision or Pedestrian Struck (with Injury)' ordinal='6' />
+                  <column datatype='integer' name='Break and Enter Commercial' ordinal='7' />
+                  <column datatype='integer' name='Break and Enter Residential/Other' ordinal='8' />
+                  <column datatype='real' name='Homicide' ordinal='9' />
+                  <column datatype='integer' name='Mischief' ordinal='10' />
+                  <column datatype='integer' name='Offence Against a Person' ordinal='11' />
+                  <column datatype='integer' name='Other Theft' ordinal='12' />
+                  <column datatype='integer' name='Total' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='BarGraph_#of_crimes_commited_Holiday'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>1.Total Crimes Commited</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HolidayCrime' name='federated.17hsz7p1mp90m3181qxtk06yij0s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17hsz7p1mp90m3181qxtk06yij0s'>
+            <column datatype='string' name='[Holiday]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[Holiday]' derivation='None' name='[none:Holiday:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]</rows>
+        <cols>[federated.17hsz7p1mp90m3181qxtk06yij0s].[none:Holiday:nk]</cols>
+      </table>
+      <simple-id uuid='{0F27E557-09E8-4C76-B3A5-61E96B8F03D3}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C2D76B8D-B143-4541-8791-D5FE3695A2A8}' />
+    </worksheet>
+    <worksheet name='average crimes cummited '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2. Average Crime Commited</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HolidayCrime' name='federated.17hsz7p1mp90m3181qxtk06yij0s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17hsz7p1mp90m3181qxtk06yij0s'>
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='fill-above' id='refline2' value='#00000000' />
+            <format attr='fill-below' id='refline2' value='#00000000' />
+            <format attr='fill-above' id='refline4' value='#00000000' />
+            <format attr='fill-below' id='refline4' value='#00000000' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_red' />
+            <format attr='boxplot-style' id='refline0' value='modern' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <dropline drop-when='selected' haslabel='false' x-axis='false' y-axis='true' />
+            <reference-line axis-column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]' z-order='1' />
+            <reference-line axis-column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]' enable-instant-analytics='false' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]' z-order='2' />
+            <reference-line axis-column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-table' value-column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]' z-order='3' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Total:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{16AB0355-9AEF-48E1-BF20-D0E73F6EDB1C}' />
+    </worksheet>
+    <worksheet name='comparison of crimes commited'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>3. Comparisons of Crimes Commited</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HolidayCrime' name='federated.17hsz7p1mp90m3181qxtk06yij0s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17hsz7p1mp90m3181qxtk06yij0s'>
+            <column datatype='integer' name='[Break and Enter Residential/Other]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Holiday]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Homicide]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Mischief]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Offence Against a Person]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Theft of Vehicle]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Vehicle Collision or Pedestrian Struck (with Injury)]' role='measure' type='quantitative' />
+            <column-instance column='[Holiday]' derivation='None' name='[none:Holiday:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Break and Enter Residential/Other]' derivation='Sum' name='[sum:Break and Enter Residential/Other:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Homicide]' derivation='Sum' name='[sum:Homicide:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mischief]' derivation='Sum' name='[sum:Mischief:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Offence Against a Person]' derivation='Sum' name='[sum:Offence Against a Person:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Theft of Vehicle]' derivation='Sum' name='[sum:Theft of Vehicle:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Vehicle Collision or Pedestrian Struck (with Injury)]' derivation='Sum' name='[sum:Vehicle Collision or Pedestrian Struck (with Injury):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Homicide:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Mischief:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Offence Against a Person:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Theft of Vehicle:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Vehicle Collision or Pedestrian Struck (with Injury):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Break and Enter Residential/Other:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Homicide:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Mischief:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Offence Against a Person:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Theft of Vehicle:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Vehicle Collision or Pedestrian Struck (with Injury):qk]&quot;</bucket>
+              <bucket>&quot;[federated.17hsz7p1mp90m3181qxtk06yij0s].[sum:Break and Enter Residential/Other:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[Multiple Values]' scope='rows' value='Number of crimes commited' />
+            <format attr='height' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' value='142' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[Multiple Values]' value='false' />
+            <format attr='break-on-special' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[Multiple Values]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[Multiple Values]' value='false' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' value='360' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' value='3. Measure Names'>
+              <formatted-text>
+                <run>3. Measure Names</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17hsz7p1mp90m3181qxtk06yij0s].[Multiple Values]</rows>
+        <cols>([federated.17hsz7p1mp90m3181qxtk06yij0s].[none:Holiday:nk] / [federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{BB6AF69C-4832-4E0B-B80C-9F8A6929EB8E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='46125' id='7' param='horz' type-v2='layout-flow' w='55600' x='30900' y='52875'>
+            <zone fixed-size='363' h='46125' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='55600' x='30900' y='52875'>
+              <zone fixed-size='138' h='18250' id='8' is-fixed='true' name='comparison of crimes commited' pane-specification-id='2' param='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' type-v2='color' w='55600' x='30900' y='52875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='27875' id='9' name='BarGraph_#of_crimes_commited_Holiday' w='55600' x='30900' y='71125'>
+                <layout-cache minheight='184' type-h='scalable' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='51875' id='3' name='comparison of crimes commited' w='85700' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='98000' id='10' name='average crimes cummited ' w='12700' x='86500' y='1000'>
+            <layout-cache type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='169' forceUpdate='true' h='46125' id='11' is-fixed='true' type-v2='text' w='30100' x='800' y='52875'>
+            <formatted-text>
+              <run>Question: With this analytical project I hope to be able to find what time of the year is worse with crime. I have always heard that during the Holidays there is more crime. So with my study I want to find out if during the holiday season more crime is commited. I believe that more crime will be commited during the season because people will be drunk and intoxicated as well as people are away on vaction which will make those houses easy targets for robbery 
+
+1. The first bar graph gives us a basic over view of the amount of crimes that are commited during which holiday.  THis also helps compaire the difference between each holiday
+2. The scound graph expands on the first graph showing where the crimes commited averge is compaired to the holiday (remeber this is taken from 100 random dates throughout the year .
+3.  The last graph can help us better visualze which crimes are mor commited durng each holiday season</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='51875' id='3' is-fixed='true' name='comparison of crimes commited' w='85700' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='138' h='18250' id='8' name='comparison of crimes commited' pane-specification-id='2' param='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' type-v2='color' w='55600' x='30900' y='52875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='10' is-fixed='true' name='average crimes cummited ' w='12700' x='86500' y='1000'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='169' forceUpdate='true' h='46125' id='11' type-v2='text' w='30100' x='800' y='52875'>
+                  <formatted-text>
+                    <run>Question: With this analytical project I hope to be able to find what time of the year is worse with crime. I have always heard that during the Holidays there is more crime. So with my study I want to find out if during the holiday season more crime is commited. I believe that more crime will be commited during the season because people will be drunk and intoxicated as well as people are away on vaction which will make those houses easy targets for robbery 
+
+1. The first bar graph gives us a basic over view of the amount of crimes that are commited during which holiday.  THis also helps compaire the difference between each holiday
+2. The scound graph expands on the first graph showing where the crimes commited averge is compaired to the holiday (remeber this is taken from 100 random dates throughout the year .
+3.  The last graph can help us better visualze which crimes are mor commited durng each holiday season</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='215' h='27875' id='9' is-fixed='true' name='BarGraph_#of_crimes_commited_Holiday' w='55600' x='30900' y='71125'>
+                  <layout-cache minheight='184' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4F9882FE-B124-4A81-A4F1-E0B761F5EBCD}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='30'>
+    <window class='worksheet' name='comparison of crimes commited'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='2' param='[federated.17hsz7p1mp90m3181qxtk06yij0s].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6EBE05C6-742E-49B3-A55A-D34010BB6253}' />
+    </window>
+    <window class='worksheet' name='BarGraph_#of_crimes_commited_Holiday'>
+      <cards>
+        <edge name='left'>
+          <strip size='180'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4E609AB5-9BE6-4B30-90DB-2EFB77B98DE3}' />
+    </window>
+    <window class='worksheet' name='average crimes cummited '>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F4A99247-2CA6-4F45-9592-08F0ADB31AD8}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C19E45B9-8EE2-49F1-BC24-4F60BDB71824}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='BarGraph_#of_crimes_commited_Holiday'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='average crimes cummited ' />
+        <viewpoint name='comparison of crimes commited'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{440F58B5-B325-48B9-AC96-031828C4C64C}' />
+    </window>
+  </windows>
+</workbook>

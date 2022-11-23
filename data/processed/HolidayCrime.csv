@@ -1,0 +1,8 @@
+,Holiday,Theft from Vehicle,Theft of Bicycle,Theft of Vehicle,Vehicle Collision or Pedestrian Struck (with Fatality),Vehicle Collision or Pedestrian Struck (with Injury),Break and Enter Commercial,Break and Enter Residential/Other,Homicide,Mischief,Offence Against a Person,Other Theft,Total
+0,ChristmasEve,453,16,85,1.0,40,112,133,,180,163,203,1386
+1,ChristmasDay,583,29,93,,39,119,141,,212,137,437,1790
+2,NewyearsEve,656,29,94,,51,149,208,1.0,295,198,501,2182
+3,NewyYearsDay,731,72,121,,61,129,197,1.0,387,683,578,2960
+4,CanadaDay,614,174,140,2.0,64,106,202,1.0,324,282,581,2490
+5,ValDay,670,52,125,,85,137,208,2.0,246,194,605,2324
+6,Halloween,618,59,125,,74,146,213,2.0,526,254,577,2594

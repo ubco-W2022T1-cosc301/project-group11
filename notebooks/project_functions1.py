@@ -12,6 +12,7 @@ def load_and_process(day, month, file):
         .loc[lambda x: x["DAY"] == day]
         .loc[lambda x : x["MONTH" ]== month]
     )
+    
 
     return dataFrame
 
