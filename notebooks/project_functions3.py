@@ -27,13 +27,13 @@ def load(load_and_process):
 def process(df):
     
      # Drop columns, create new variables, and do processing
-     df_cleaned = (
+    df_cleaned = (
         df
         .drop([ 'Year','Month','Day','Hour','Minute'], axis = 1)
         .sort_values(by = ['Hundred Block'])
     )
     
-     return df_cleaned
+    return df_cleaned
 
 def write(df, load_and_process):
     
@@ -78,6 +78,11 @@ def countplot(df, var, t, x):
     # Create countplot without hue
     sns.countplot(y = df[var]).set(title = t, xlabel = x)
     
+def countplothue(df, x, y, hue, t):
+    
+    # Create countplot without hue
+    sns.countplot(data = df, y = y, hue = hue).set(title = t, xlabel = x, ylabel = y)
+    
 def preview(df):
     
     # Generate preview of entries with null values
@@ -95,3 +100,17 @@ def duplicates(df):
         print (df[df.duplicated(keep = False)].sort_values(by = list(df.columns)).head())
     else:
         print("No duplicated entries found")
+        
+
+def count(df):
+    
+    # Finds the number of times what type of crime had occured
+    print(df['Type'].value_counts())
+    
+def count2(df):
+    
+    # Finds the number of neighbourhoods affected
+    print(df['Hundred Block'].value_counts())
+    
+
+    
