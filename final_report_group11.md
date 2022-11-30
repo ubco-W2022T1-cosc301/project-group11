@@ -12,8 +12,6 @@ The questions that we would be exploring are:
 2. At what times and years do the crimes occur the most? (Ken)
 3. Which areas are the most targeted? (eg. residential areas, business districts, parking lots, etc.) (Adnan)
 
-&nbsp;
-
 ## Explatory Data Analysis
 
 ### Question 1
