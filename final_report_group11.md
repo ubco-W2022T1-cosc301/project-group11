@@ -10,7 +10,7 @@ The questions that we would be exploring are:
 
 1. Does the total crime committed during the holiday season increase or decrease? (Luca)
 2. At what times and years do the crimes occur the most? (Ken)
-3. Which areas are the most targeted? (eg. residential areas, business districts, parking lots, etc.) (Adnan)
+3. What types of crimes occur in which Neighbourhood, and which neighbourhood is arguably the safest? (Adnan)
 
 ## Explatory Data Analysis
 
@@ -88,7 +88,47 @@ From the graph above, it can be observed that "Theft from Vehicle" and "Other Th
 
 There is an overwhelming amount of crime for an "Offence Against a Person" which seems to occur only during midnight. The general public should avoid going outdoors alone at this time to reduce the risks of being a victim for this type of crime. The general trend for each type of crime is that the most occurrence time is during midnight, with a few exceptions. "Theft from Vehicle" and "Other Theft" also have a high occurrence during the afternoon to late evening. It may be an option for the police department to increase patrolling during these hours to reduce the risks of such criminal activities to occur.
 
-### Question 3
+### Question 3 (What types of crimes occur in which Neighbourhood, and which neighbourhood is arguably the safest?)
+
+#### **1. Understanding the Variables**
+
+![head](./images/Q2/head.png)
+
+From the shown first 5 rows of the dataset, 10 columns are visible. These include `Type of Crime`, `Year`, `Month`, `Day`, `Hour`, `Minute`, `Hundred Block`, `Neighbourhood`, and the `X` and `Y` coordinates. The `X` and `Y` coordinates are formatted in UTM standard zone 10. At a glance, `Theft from Vehicle` seems to be the only type of crime being committed in the same hundred block, neighbourhood, and x and y coordinates; but at different times.
+
+![nunique](./images/Q2/nunique.png)
+
+Using the `.nunique()` function to find the number of unique data types from each column, there are 11 types of crime in this dataset. It is also noted that the dataset spans over 19 years.
+
+![numerical](./images/Q2/numerical.png)
+
+.numerical() function reveals that the data is collected from the year 2003 up until the year 2021. It can also be seen that the average time at which crimes occur is about 12 noon. 
+
+![discrete](./images/Q2/discrete.png)
+
+.discrete() is used to show the unique values for each variable in the column. The method here shows the 11 unique string values for the 11 types of crimes recorded in the dataset. Since there are 22869 unique values in the Hundred Block column, only a few are printed.
+
+#### **2. Cleaning the Dataset**
+
+This section focuses on cleaning the dataset to curb any misleading data, as well as, removing any unused columns. The process will remove redundant variables, help make better variable selection, remove any outliers, and also remove rows with null values.
+
+Cleaning the dataset provided a concise table with only the variables required. The goal to find "What types of crimes occur in which Neighbourhood, and which neighbourhood is arguably the safest?" was assisted through this section. In this case, as there would be a heavy emphasis on location, the variables that contain information about the crime times become somewhat irrelevant. Columns such as `year`, `month`, `day`, `hour`, and `minute` are excluded. 
+
+![Snippet of the cleaned dataset](./images/Q3/cleaned.png)
+
+#### **3. Variable Analysis**
+
+![Crime Rates in each Neighbourhood](./images/Q3/Neighbourhoodcrimefrequency.png)
+
+From the graph illustrated above, it can be seen that crime rate in the `Central Business District` is the highest, and vastly out matches the crime rate of the second highest in `West End`. The Central Business District in Vancouver stretches from the northern Burrard Inlet, to the southern False Creek. It also spans from Chinatown in the west, and to Gastown in the east~[1]~. 
+
+![Types of Crime](./images/Q3/Typesofcrimesandtheirfrequency.png)
+
+From the graph above, it seems that Theft from Vehicles are the most common type of crime. This statistic is followed closely by thefts of other kinds. There is a significant difference in the frequency of thefts compared to other types of crimes. Fatalities in vehicular collision and homicide seems to not be common according to the dataset collected. 
+
+![Types of crimes in each Neighbourhood](./images/Q3/Neighbourhoodcrimefrequency.png)
+
+From the graph above, it is clearer on what types of crimes happen by neighbourhood. it seems that `Theft from Vehicles` are the most common in the `Central Business District`. `Bicycle Theft` is also very common in the West End and it seems `Musqueam` has the lowest crime rates of all sorts. Being as large as it is, the `Central Business District` is usually a very crowded place for tourists and locals. More crowds would typically result in higher rates of thefts from parked vehicles and thefts of other kinds amongst others as shown. `Musqueam`, `West Point Grey` , `Shaughnessy`, `Arbutus Ridge` and `Kerrisdale` have some of the lowest crime rates of each type. This may be because of not enough reports, or not enough crowds accumulating there as these areas are more geared towards residents. It is very likely that these neighbourhoods are arguably safer than other neighbouhoods mentioned, whereas, the Central Business District is more crime ridden. 
 
 
 
@@ -96,6 +136,11 @@ There is an overwhelming amount of crime for an "Offence Against a Person" which
 
 It is observed that the most occurred crime rate year is 2003 and despite showing an improvement on the occurrence the following few years, has begun to rise again from 2011. There is however, a significant drop during 2020 likely due to the upsurge of the epidemic. The most occurred crime rate month is August, but due to the marginal differences throughout the months, it is likely that the month does not play a significant role in the crime rate. Criminal activities are most likely to occur during midnight as from the observations, which are largely classified as "Offense Against a Person", followed by "Theft of Vehicle" and "Other Theft".
 
-From these observations, we can predict that the crime rate will begin to increase again in the following years do to the pandemic settling down, with a fairly constant rate throughout the months. "Theft of Vehicle" and "Other Theft" are still likely to be the main contributors to the amount of crime, mostly occurring during the midnight and late evening. During midnight, "Offense Against a Person" is still likely to be a risk especially.
+From these observations, we can predict that the crime rate will begin to increase again in the following years do to the pandemic settling down, with a fairly constant rate throughout the months. "Theft of Vehicle" and "Other Theft" are still likely to be the main contributors to the amount of crime, mostly occurring during the midnight and late evening. During midnight, "Offense Against a Person" is still especially likely to be a risk.
 
 It is best for the general public to be wary when leaving the house during midnight, especially if alone, as well as leaving their vehicle unattended for a long period of time in an environment with low security. Valuables should be taken out of the car whenever unused, and the windows and doors should be properly locked. The police department should develop a plan for reducing the crime rates especially for thefts as they are the largest contributor, whether that be to increase patrolling or to improve security systems or by other means.
+
+From the data analyzed, it can also be concluded that Musqueam is arguably the safest in terms of crime rates and crime variaty. The Central Business District seems to be more crime riddled, and has a good variaty and frequency of each type of crime. General warnings in leaving cars unoccupied or in one place for too long is ill-advised, as well as leaving bicycles unchained.
+
+## References
+[1](https://www.infovancouver.com/things-to-see-and-do/downtown-vancouver/city-center)
