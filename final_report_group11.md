@@ -14,7 +14,67 @@ The questions that we would be exploring are:
 
 ## Explatory Data Analysis
 
-### Question 1
+### Question 1 (Does the total crime committed during the holiday season increase or decrease?)
+#### **1. Understanding the Variables**
+
+![photo0](./images/Q1/exploritory_0_an1.png)
+Here we see The data set that I was working with. It has 10 columns containing *TYPE* of crime commited, The *Year* the crime was commited, The *Month* the crime was commited,The  *Date* the crime was commited, the *Hour* the crime was commited, the  *Minute* the crime was commited, *Hundred_block*, the  *Neighborhood* the crime was commited, and the *X* and *Y* cordinates of the crime. Although this table only shows repeate varibales there are more unqiue variables in the data set.
+
+
+![photo1](./images/Q1/exploritory_3_an1.png)
+
+Here we get more information about the dataset that tells us 1. how big our data set is and 2. how many Non-Null values we have. As we can see that data set countains 793916 crimes commited.With that we can see here is that in the columns *TYPE*, *YEAR*, *MONTH*, *DAY*, *HOUR*, and *MINUTE*, we do not have any missing values. While The blocks and coordinate columns have NULL values but, not enough Null values to make a significant difference in our research questions. 
+
+
+![photo2](./images/Q1/exploritory_2_an1.png)
+
+The table above is of the year column. This table may not be seen as very useful. However, it shows us that the information given to us had occured between the times of 2003 and 2021. This gievs us a brakground of information of almost 2 decades. 
+
+
+![photo3](./images/Q1/exploritory_4_an1.png)
+
+Here we can see the amount of crimes, the amount of unqiue crimes commited(The different types of crimes in the dataset), most common crimes, and frequency of the most common crimes between 2003 and 2021 in vancouver. As we can see there are 11 different Types of crimes that the dataset identifies. The most common crime in vancouver is theft from a vehicle and it had occured 224662 times out of the 793916 crimes commited in vancouver. From this we know that about 28 % of crimes reported in vancouver are Theft from a vehicle. 
+
+
+![photo4](./images/Q1/exploritory_1_an1.png)
+
+As we found out from the table ahead there are 11 different types of crimes that is recorded in the datatable. Here is a list of all 11 types of crimes. This information can tell us alot about the type of crimes commited in vancouver. 
+
+![photo5](./images/Q1/exploritory_5_an1.png)
+
+Lastley here is a break down about how many of each type of crimes is commited during the 2003 - 2021. Ths tables also lists in order how common each crime is with theft of vehicle being the most common and Homicide being the least common crime in vancouver.
+
+
+
+
+#### **2. Cleaning the Dataset**
+
+Cleaning the dataset will better help me with finding the answer to my question of " Does the total crime committed during the holiday season Increase?" What is ment by cleaning is getting rid of any uncessary information within the data set that I do not need. Because tehre are very few NULL values stated before and no NULL values in the columns that I need I will not have to get ride of and rows. 
+
+So to get started I wanna get ride of the columns that I will not be looking at when coducting my study. These columns are *YEAR*, *HOUR*, *MINUTE*, *HUNDRED_BLOCK*, *NEIGHBOURHOOD*, *X*, *Y*. 
+
+The reason I do not need any of these columns is because im trying to see if crimes during a specific holidays increase, and how many crimes where commited during these holidays. Thefore I only need The *DATE* *MONTH* and *TYPE* of crime commited. 
+
+Next thing I do to more easily visualize the graph is Fliping the x and y axis so that we view type of crime becomes the dependent vairable and the date becomes the Independent variable.  As shown below: 
+![Image of row change](./images/Q1/fliped%20Table.png)
+
+Next because There is almost a million crimes commited over a period of 18 years, there is alot of data and it would take the program a very long time to sort through all the program( And I mean hours) so Indtead I created a Method that chooses 100 random dates as my test population. 
+
+I then create a method that adds all the holidays into one table, Orgainzes the order in which to display each column, and adds a new column called *TOTAL* that finds the sum of the number of crimes commited on that date. 
+
+I then create a new table that will caluclate the standard divation of the 100 Testpopulation and the Holiday population and shows me if the number of crimes during a holiday is a significant increase or decrease. giving myself two tables: 
+
+![table1](./images/Q1/Table1.png)
+![table2](./images/Q1/Table2.png)
+
+#### **3. Variable Analysis**
+![graph1](./images/Q1/graph1_an1.png)
+Here I used a cat and whisker scatter plot. I Used it because a cat and whisker scatter plot is usefu for identifying patters amoung data. The plot has five parts to it. the meadian the upper quartile the lower quartile and the lower whiskers and uper whiskers. With this we can see by using out sample population and population of the holidays we can visualy see if holidays create a significantly more crime. Anything past the whiskers can be seen as a very siginificant value. If you compare the total amount of crimes in each holday and look at the table you see that the farthest point to the right us New Years Day. and the Farthest point to the left is Christmas eve. the other two points are random dates that also seem to have an extreme spike or extreme drop in crime. What this graph indicates is that although more crime is commited on some Holidays other seem to have a big drop.
+
+![graph1](./images/Q1/graph2_an1.png)
+
+In this graph we can see a better visualization and compare how big a difference each Holidays crimes are compared to eachother. We can see very clearly that Christmas eve has a huge drop of crime compared to everyother Holiday, Contradicting my beliefe that Holidays increase the amount of crime. We also see how many more crimes are commited on New years Day compaired to other holidays. 
+
 
 
 
