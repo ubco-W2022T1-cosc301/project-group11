@@ -8,74 +8,74 @@ We are very interested to find out the historical crime trends in Vancouver, as 
 
 The questions that we would be exploring are:
 
-1. Does the total crime committed during the holiday season increase or decrease? (Luca)
+1. Does the total crime committed during the holiday season increase? (Luca)
 2. At what times and years do the crimes occur the most? (Ken)
 3. What types of crimes occur in which Neighbourhood, and which neighbourhood is arguably the safest? (Adnan)
 
 ## Explatory Data Analysis
 
-### Question 1 (Does the total crime committed during the holiday season increase or decrease?)
+### Question 1 (Does the total crime committed during the holiday season increase?)
 #### **1. Understanding the Variables**
 
-![photo0](./images/Q1/exploritory_0_an1.png)
-Here we see The data set that I was working with. It has 10 columns containing *TYPE* of crime commited, The *Year* the crime was commited, The *Month* the crime was commited,The  *Date* the crime was commited, the *Hour* the crime was commited, the  *Minute* the crime was commited, *Hundred_block*, the  *Neighborhood* the crime was commited, and the *X* and *Y* cordinates of the crime. Although this table only shows repeate varibales there are more unqiue variables in the data set.
-
-
+!![photo0](./images/Q1/exploritory_0_an1.png)
+Here we see The data set that I was working with. It has 10 columns containing *TYPE* of crime committed, The *Year* the crime was committed, The *Month* the crime was committed,The  *Date* the crime was committed, the *Hour* the crime was committed, the  *Minute* the crime was committed, *Hundred_block*, the  *Neighborhood* the crime was committed, and the *X* and *Y* coordinates of the crime. Although this table only shows repeat variables there are more unique variables in the data set.
+ 
+ 
 ![photo1](./images/Q1/exploritory_3_an1.png)
-
-Here we get more information about the dataset that tells us 1. how big our data set is and 2. how many Non-Null values we have. As we can see that data set countains 793916 crimes commited.With that we can see here is that in the columns *TYPE*, *YEAR*, *MONTH*, *DAY*, *HOUR*, and *MINUTE*, we do not have any missing values. While The blocks and coordinate columns have NULL values but, not enough Null values to make a significant difference in our research questions. 
-
-
+ 
+Here we get more information about the dataset that tells us 1. how big our data set is and 2. how many Non-Null values we have. As we can see that data set contains 793916 crimes committed. With that we can see here is that in the columns *TYPE*, *YEAR*, *MONTH*, *DAY*, *HOUR*, and *MINUTE*, we do not have any missing values. The blocks and coordinate columns have NULL values but not enough Null values to make a significant difference in our research questions.
+ 
+ 
 ![photo2](./images/Q1/exploritory_2_an1.png)
-
-The table above is of the year column. This table may not be seen as very useful. However, it shows us that the information given to us had occured between the times of 2003 and 2021. This gievs us a brakground of information of almost 2 decades. 
-
-
+ 
+The table above is of the year column. This table may not be seen as very useful. However, it shows us that the information given to us had occurred between the times of 2003 and 2021. This gives us a background of information of almost 2 decades.
+ 
+ 
 ![photo3](./images/Q1/exploritory_4_an1.png)
-
-Here we can see the amount of crimes, the amount of unqiue crimes commited(The different types of crimes in the dataset), most common crimes, and frequency of the most common crimes between 2003 and 2021 in vancouver. As we can see there are 11 different Types of crimes that the dataset identifies. The most common crime in vancouver is theft from a vehicle and it had occured 224662 times out of the 793916 crimes commited in vancouver. From this we know that about 28 % of crimes reported in vancouver are Theft from a vehicle. 
-
-
+ 
+Here we can see the amount of crimes, the amount of unique crimes committed(The different types of crimes in the dataset), most common crimes, and frequency of the most common crimes between 2003 and 2021 in vancouver. As we can see there are 11 different Types of crimes that the dataset identifies. The most common crime in Vancouver is theft from a vehicle and it has occurred 224662 times out of the 793916 crimes committed in vancouver. From this we know that about 28 % of crimes reported in vancouver are Theft from a vehicle.
+ 
+ 
 ![photo4](./images/Q1/exploritory_1_an1.png)
-
-As we found out from the table ahead there are 11 different types of crimes that is recorded in the datatable. Here is a list of all 11 types of crimes. This information can tell us alot about the type of crimes commited in vancouver. 
-
+ 
+As we found out from the table ahead there are 11 different types of crimes that are recorded in the datatable. Here is a list of all 11 types of crimes. This information can tell us a lot about the type of crimes committed in vancouver.
+ 
 ![photo5](./images/Q1/exploritory_5_an1.png)
-
-Lastley here is a break down about how many of each type of crimes is commited during the 2003 - 2021. Ths tables also lists in order how common each crime is with theft of vehicle being the most common and Homicide being the least common crime in vancouver.
-
-
-
-
+ 
+Lastly here is a breakdown about how many of each type of crime is committed during the 2003 - 2021. Ths table also lists in order how common each crime is with theft of vehicle being the most common and Homicide being the least common crime in vancouver.
+ 
+ 
+ 
+ 
 #### **2. Cleaning the Dataset**
-
-Cleaning the dataset will better help me with finding the answer to my question of " Does the total crime committed during the holiday season Increase?" What is ment by cleaning is getting rid of any uncessary information within the data set that I do not need. Because tehre are very few NULL values stated before and no NULL values in the columns that I need I will not have to get ride of and rows. 
-
-So to get started I wanna get ride of the columns that I will not be looking at when coducting my study. These columns are *YEAR*, *HOUR*, *MINUTE*, *HUNDRED_BLOCK*, *NEIGHBOURHOOD*, *X*, *Y*. 
-
-The reason I do not need any of these columns is because im trying to see if crimes during a specific holidays increase, and how many crimes where commited during these holidays. Thefore I only need The *DATE* *MONTH* and *TYPE* of crime commited. 
-
-Next thing I do to more easily visualize the graph is Fliping the x and y axis so that we view type of crime becomes the dependent vairable and the date becomes the Independent variable.  As shown below: 
+ 
+Cleaning the dataset will better help me with finding the answer to my question of " Does the total crime committed during the holiday season Increase?" What is meant by cleaning is getting rid of any unnecessary information within the data set that I do not need. Because there are very few NULL values stated before and no NULL values in the columns that I need I will not have to get rid of and rows.
+ 
+So to get started I wanna get rid of the columns that I will not be looking at when conducting my study. These columns are *YEAR*, *HOUR*, *MINUTE*, *HUNDRED_BLOCK*, *NEIGHBOURHOOD*, *X*, *Y*.
+ 
+The reason I do not need any of these columns is because I'm trying to see if crimes during a specific holiday increase, and how many crimes were committed during these holidays. Therefore I only need The *DATE* *MONTH* and *TYPE* of crime committed.
+ 
+Next thing I do to more easily visualize the graph is flip the x and y axis so that the type of crime becomes the dependent variable and the date becomes the Independent variable.  As shown below:
 ![Image of row change](./images/Q1/fliped%20Table.png)
-
-Next because There is almost a million crimes commited over a period of 18 years, there is alot of data and it would take the program a very long time to sort through all the program( And I mean hours) so Indtead I created a Method that chooses 100 random dates as my test population. 
-
-I then create a method that adds all the holidays into one table, Orgainzes the order in which to display each column, and adds a new column called *TOTAL* that finds the sum of the number of crimes commited on that date. 
-
-I then create a new table that will caluclate the standard divation of the 100 Testpopulation and the Holiday population and shows me if the number of crimes during a holiday is a significant increase or decrease. giving myself two tables: 
-
+ 
+Next because There is almost a million crimes committed over a period of 18 years, there is a lot of data and it would take the program a very long time to sort through all the programs( And I mean hours) so Instead I created a Method that chooses 100 random dates as my test population.
+ 
+I then create a method that adds all the holidays into one table, Organizes the order in which to display each column, and adds a new column called *TOTAL* that finds the sum of the number of crimes committed on that date.
+ 
+I then create a new table that will calculate the standard deviation of the 100 Testpopulation and the Holiday population and show me if the number of crimes during a holiday is a significant increase or decrease. giving myself two tables:
+ 
 ![table1](./images/Q1/Table1.png)
 ![table2](./images/Q1/Table2.png)
-
+ 
 #### **3. Variable Analysis**
 ![graph1](./images/Q1/graph1_an1.png)
-Here I used a cat and whisker scatter plot. I Used it because a cat and whisker scatter plot is usefu for identifying patters amoung data. The plot has five parts to it. the meadian the upper quartile the lower quartile and the lower whiskers and uper whiskers. With this we can see by using out sample population and population of the holidays we can visualy see if holidays create a significantly more crime. Anything past the whiskers can be seen as a very siginificant value. If you compare the total amount of crimes in each holday and look at the table you see that the farthest point to the right us New Years Day. and the Farthest point to the left is Christmas eve. the other two points are random dates that also seem to have an extreme spike or extreme drop in crime. What this graph indicates is that although more crime is commited on some Holidays other seem to have a big drop.
-
+Here I used a cat and whisker scatter plot. I Used it because a cat and whisker scatter plot is useful for identifying patterns among data. The plot has five parts to it. the median the upper quartile the lower quartile and the lower whiskers and upper whiskers. With this we can see by using our sample population and population of the holidays we can visually see if holidays create significantly more crime. Anything past the whiskers can be seen as a very significant value. If you compare the total amount of crimes in each holiday and look at the table you see that the farthest point to the right is New Year's Day. and the Farthest point to the left is Christmas eve. The other two points are random dates that also seem to have an extreme spike or extreme drop in crime. What this graph indicates is that although more crime is committed on some Holidays others seem to have a big drop.
+ 
 ![graph1](./images/Q1/graph2_an1.png)
-
-In this graph we can see a better visualization and compare how big a difference each Holidays crimes are compared to eachother. We can see very clearly that Christmas eve has a huge drop of crime compared to everyother Holiday, Contradicting my beliefe that Holidays increase the amount of crime. We also see how many more crimes are commited on New years Day compaired to other holidays. 
-
-
+ 
+In this graph we can see a better visualization and compare how big a difference each Holidays crimes are compared to each other. We can see very clearly that Christmas eve has a huge drop in crime compared to every other Holiday, Contradicting my belief that Holidays increase the amount of crime. We also see how many more crimes are committed on New year's Day compared to other holidays.
+ 
+ As we can see from the cat and whiskers plot the average amount of crimes committed Named Total on the x axis is 2200 crimes. with the lower hinge being about 2100 and 2300 and the outer hinges being 1900 and 2500. Any data outside of these ranges are considered outside 3 standard deviations meaning that it is a significant value.  Out of all the Holidays two of them are outside if the Outer hinges. If we look at the second graph we can tell that these Holidays are Christmas Eve and Newyears Day. However both of these days are on opposite sides of The graph. New Years Day Brings a significantly more amount of Crime while Christmas Eve brings significantly Less amount of crime. This means that my theory of Holidays causing more crime is not true as only two Holidays are outside the 99% margin mean while they are on the opposite sides of each other indicating that although some holidays may increase crime others actually decrease crime in Vancouver.
 
 
 ### Question 2 (At what times and years do the crimes occur the most?)
@@ -199,6 +199,8 @@ It is observed that the most occurred crime rate year is 2003 and despite showin
 From these observations, we can predict that the crime rate will begin to increase again in the following years do to the pandemic settling down, with a fairly constant rate throughout the months. "Theft of Vehicle" and "Other Theft" are still likely to be the main contributors to the amount of crime, mostly occurring during the midnight and late evening. During midnight, "Offense Against a Person" is still especially likely to be a risk.
 
 It is best for the general public to be wary when leaving the house during midnight, especially if alone, as well as leaving their vehicle unattended for a long period of time in an environment with low security. Valuables should be taken out of the car whenever unused, and the windows and doors should be properly locked. The police department should develop a plan for reducing the crime rates especially for thefts as they are the largest contributor, whether that be to increase patrolling or to improve security systems or by other means.
+
+We can also conclude that There are safer holidays than others in Vancouver. When we talk about Holidays as a whole, Crime rate does not necessarily increase. New Years Day is the least safe Holiday in Vancouver and it is best for the general public to be wary of that. When taking your kids out for Halloween the crime rate does increase as well.
 
 From the data analyzed, it can also be concluded that Musqueam is arguably the safest in terms of crime rates and crime variaty. The Central Business District seems to be more crime riddled, and has a good variaty and frequency of each type of crime. General warnings in leaving cars unoccupied or in one place for too long is ill-advised, as well as leaving bicycles unchained.
 
